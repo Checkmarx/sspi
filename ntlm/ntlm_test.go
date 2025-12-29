@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build windows
 // +build windows
 
 package ntlm_test
@@ -13,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alexbrainman/sspi"
-	"github.com/alexbrainman/sspi/ntlm"
+	"github.com/checkmarx/sspi"
+	"github.com/checkmarx/sspi/ntlm"
 )
 
 var (

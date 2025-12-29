@@ -11,7 +11,7 @@ import (
 	"errors"
 	"syscall"
 
-	"github.com/alexbrainman/sspi"
+	"github.com/checkmarx/sspi"
 )
 
 func BuildAuthIdentity(domain, username, password string) (*sspi.SEC_WINNT_AUTH_IDENTITY, error) {

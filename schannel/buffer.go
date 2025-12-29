@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build windows
 // +build windows
 
 package schannel
@@ -9,7 +10,7 @@ package schannel
 import (
 	"io"
 
-	"github.com/alexbrainman/sspi"
+	"github.com/checkmarx/sspi"
 )
 
 type inputBuffer struct {

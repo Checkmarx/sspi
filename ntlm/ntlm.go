@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build windows
 // +build windows
 
 // Package ntlm provides access to the Microsoft NTLM SSP Package.
-//
 package ntlm
 
 import (
@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/alexbrainman/sspi"
-	"github.com/alexbrainman/sspi/internal/common"
+	"github.com/checkmarx/sspi"
+	"github.com/checkmarx/sspi/internal/common"
 )
 
 // PackageInfo contains NTLM SSP package description.

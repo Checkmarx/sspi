@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alexbrainman/sspi"
-	"github.com/alexbrainman/sspi/negotiate"
+	"github.com/checkmarx/sspi"
+	"github.com/checkmarx/sspi/negotiate"
 )
 
 var (
