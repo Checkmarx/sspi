@@ -19,6 +19,8 @@ jobs:
   build:
     name: CI
     uses: ./.github/workflows/ci.yaml
+    secrets:
+      ECHO_LIBRARIES_ACCESS_KEY: ${{ secrets.ECHO_LIBRARIES_ACCESS_KEY }}
 
   release:
     name: Tag & Create GitHub Release
